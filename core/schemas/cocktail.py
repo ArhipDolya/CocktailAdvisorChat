@@ -13,8 +13,10 @@ class CocktailData(BaseModel):
     ingredientMeasures: list[str | None]
     text: str
 
+
 class ChatRequest(BaseModel):
     question: str
+
 
 class ChatResponse(BaseModel):
     answer: str

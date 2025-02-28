@@ -1,6 +1,5 @@
 from fastapi import APIRouter, Depends
 
-from core.clients.weaviate_client import WeaviateClient, get_weaviate_client
 from core.schemas.cocktail import ChatRequest, ChatResponse
 from core.services.langchain import LangchainService, get_langchain_service
 
